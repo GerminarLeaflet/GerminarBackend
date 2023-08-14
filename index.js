@@ -20,7 +20,6 @@ const router = require("./src/serverIndex")
 const cors = require('cors');
 const { error } = require('console');
 
-
 app.use(cors());
 app.use(router)
 
